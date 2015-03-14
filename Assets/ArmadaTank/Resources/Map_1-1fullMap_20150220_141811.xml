@@ -1,0 +1,2619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Map>
+  <TerrAssembly>
+    <Prefab>Terr_21</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(4.0, 0.0, 7.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-6.0, 0.0, 5.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_0</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-7.0, 0.0, 4.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <FlagAssembly>
+    <Prefab>Flag_I</Prefab>
+    <Material>Flag_123</Material>
+    <Position>(0.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </FlagAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_53</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-8.0, 0.0, 7.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-8.0, 0.0, 7.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_54</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-9.0, 0.0, 7.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-2.0, 0.0, 8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-1.0, 0.0, 8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(0.0, 0.0, 8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(1.0, 0.0, 8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(2.0, 0.0, 8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(3.0, 0.0, 8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(4.0, 0.0, 8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(4.0, 0.0, 8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(5.0, 0.0, 8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(6.0, 0.0, 8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(7.0, 0.0, 8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-4.0, 0.0, 8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-3.0, 0.0, 8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_51</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-3.0, 0.0, 8.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_51</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(7.0, 0.0, 5.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_51</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(5.0, 0.0, -7.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_51</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-4.0, 0.0, -7.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-9.0, 0.0, 6.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-9.0, 0.0, 7.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-8.0, 0.0, 7.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-8.0, 0.0, 6.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-8.0, 0.0, 5.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-9.0, 0.0, 5.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-9.0, 0.0, 4.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-8.0, 0.0, 4.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-9.0, 0.0, -8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-9.0, 0.0, -7.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-9.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-8.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-9.0, 0.0, -4.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(8.0, 0.0, 8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(9.0, 0.0, 8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(9.0, 0.0, 8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(9.0, 0.0, -8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(7.0, 0.0, -8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(8.0, 0.0, -8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(3.0, 0.0, -8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(5.0, 0.0, -8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(6.0, 0.0, -8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(4.0, 0.0, -8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(2.0, 0.0, -8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(1.0, 0.0, -8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-1.0, 0.0, -8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(0.0, 0.0, -8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-2.0, 0.0, -8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-3.0, 0.0, -8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-4.0, 0.0, -8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-5.0, 0.0, -8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-6.0, 0.0, -8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-7.0, 0.0, -8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-8.0, 0.0, -8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(9.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(8.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(9.0, 0.0, -4.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(9.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(9.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(9.0, 0.0, -7.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(8.0, 0.0, -7.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(8.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(8.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(8.0, 0.0, -4.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(9.0, 0.0, 7.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(8.0, 0.0, 7.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(8.0, 0.0, 6.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(9.0, 0.0, 6.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(8.0, 0.0, 5.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(9.0, 0.0, 5.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-8.0, 0.0, -7.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-8.0, 0.0, -7.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-8.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-8.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-9.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-8.0, 0.0, -4.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-9.0, 0.0, 0.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-8.0, 0.0, 0.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-9.0, 0.0, 1.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-9.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-8.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-8.0, 0.0, 1.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_0</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-7.0, 0.0, 1.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-7.0, 0.0, 0.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_0</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-7.0, 0.0, -4.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-7.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_2</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-7.0, 0.0, -7.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-7.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-6.0, 0.0, -7.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-5.0, 0.0, -7.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-4.0, 0.0, -7.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-3.0, 0.0, -7.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-2.0, 0.0, -7.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-1.0, 0.0, -7.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(0.0, 0.0, -7.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(1.0, 0.0, -7.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(2.0, 0.0, -7.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(4.0, 0.0, -7.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(3.0, 0.0, -7.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(5.0, 0.0, -7.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(6.0, 0.0, -7.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_2</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(7.0, 0.0, -7.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(7.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(7.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(7.0, 0.0, -4.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_0</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(7.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(9.0, 0.0, 4.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(9.0, 0.0, 4.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_0</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(7.0, 0.0, 4.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(7.0, 0.0, 5.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(8.0, 0.0, 4.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(7.0, 0.0, 6.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(6.0, 0.0, 7.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(4.0, 0.0, 7.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(2.0, 0.0, 7.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(1.0, 0.0, 7.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(0.0, 0.0, 7.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-1.0, 0.0, 7.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-3.0, 0.0, 7.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-4.0, 0.0, 7.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_2</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(7.0, 0.0, 7.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_2</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-7.0, 0.0, 7.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-6.0, 0.0, 7.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-7.0, 0.0, 6.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_1</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-7.0, 0.0, 5.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_0</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-8.0, 0.0, 6.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_0</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-7.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_35</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-9.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_35</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-9.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_35</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-9.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_35</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-9.0, 0.0, -2.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(7.0, 0.0, 1.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(7.0, 0.0, 0.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_79</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(6.0, 0.0, 0.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_79</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(6.0, 0.0, 0.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_79</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(6.0, 0.0, 1.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_79</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(5.0, 0.0, 1.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_79</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(5.0, 0.0, 0.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_41</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-2.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_54</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-7.0, 0.0, 8.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_54</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-6.0, 0.0, 8.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_53</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-5.0, 0.0, 8.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_34</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(8.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_34</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(8.0, 0.0, 0.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_35</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(8.0, 0.0, 1.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_35</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(8.0, 0.0, -2.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_35</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(7.0, 0.0, -2.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_34</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(7.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_34</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(7.0, 0.0, 0.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_35</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(7.0, 0.0, 1.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_35</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(9.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_35</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(9.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_34</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(8.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_34</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(7.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_34</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(8.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_34</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(7.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_34</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(7.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(7.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(7.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(7.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(7.0, 0.0, -4.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(7.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(7.0, 0.0, -2.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(7.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(7.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(7.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_35</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(6.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_35</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(6.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_34</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-8.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_34</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-7.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_34</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-7.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_34</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-8.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_34</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-8.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_34</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-7.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_34</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-8.0, 0.0, -2.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_34</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-7.0, 0.0, -2.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_35</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-6.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-6.0, 0.0, 4.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-6.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-6.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-6.0, 0.0, 1.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-6.0, 0.0, 0.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(6.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(6.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(6.0, 0.0, 4.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(6.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(6.0, 0.0, 5.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(6.0, 0.0, 6.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(6.0, 0.0, 6.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(5.0, 0.0, 6.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(5.0, 0.0, 4.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(5.0, 0.0, 5.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(5.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(5.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(5.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_47</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-3.0, 0.0, 4.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_45</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(3.0, 0.0, -2.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_45</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(4.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_45</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(3.0, 0.0, 0.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(2.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(2.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-2.0, 0.0, 4.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-2.0, 0.0, 1.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-2.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-2.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_47</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(2.0, 0.0, -2.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-3.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-3.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_47</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-3.0, 0.0, 1.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-1.0, 0.0, 1.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(0.0, 0.0, 1.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(1.0, 0.0, 1.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(2.0, 0.0, 1.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_47</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(3.0, 0.0, 1.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(3.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(3.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(3.0, 0.0, 4.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(0.0, 0.0, 4.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(1.0, 0.0, 4.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(2.0, 0.0, 4.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(2.0, 0.0, 5.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_47</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(3.0, 0.0, 5.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(1.0, 0.0, 5.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(0.0, 0.0, 5.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_47</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-1.0, 0.0, 5.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(1.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(0.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-1.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-1.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(0.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(1.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(2.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(2.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_47</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(4.0, 0.0, -2.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(4.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(4.0, 0.0, 0.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(4.0, 0.0, 1.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(4.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(4.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(4.0, 0.0, 4.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(4.0, 0.0, 5.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_48</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(4.0, 0.0, 6.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(3.0, 0.0, 6.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(2.0, 0.0, 6.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_48</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-2.0, 0.0, 6.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(0.0, 0.0, 6.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-1.0, 0.0, 6.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(1.0, 0.0, 6.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_47</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-2.0, 0.0, 5.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-3.0, 0.0, 5.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-3.0, 0.0, 6.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-4.0, 0.0, 6.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_48</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-4.0, 0.0, 5.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-4.0, 0.0, 4.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-4.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-4.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-4.0, 0.0, 1.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_48</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-4.0, 0.0, 0.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(6.0, 0.0, -2.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_48</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(5.0, 0.0, -2.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(5.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(6.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(6.0, 0.0, -4.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_48</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(5.0, 0.0, -4.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(4.0, 0.0, -4.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(4.0, 0.0, -4.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_48</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(3.0, 0.0, -4.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_47</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(3.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(2.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(3.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(4.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(5.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(6.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(6.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(5.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(4.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(2.0, 0.0, -4.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(2.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(3.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(2.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(1.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(1.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(1.0, 0.0, -4.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(1.0, 0.0, -4.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(1.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(1.0, 0.0, -2.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_48</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(0.0, 0.0, -2.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_48</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(0.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(0.0, 0.0, -4.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(0.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(0.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-1.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-1.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-1.0, 0.0, -4.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-1.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-2.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-2.0, 0.0, -4.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-2.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-2.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-3.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-3.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-4.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-5.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-6.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-6.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-6.0, 0.0, -4.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-6.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-6.0, 0.0, -2.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-6.0, 0.0, -2.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_35</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-6.0, 0.0, -2.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_35</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-6.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_35</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-6.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_35</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(0.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_35</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(1.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_35</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(1.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_35</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(0.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_79</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-3.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_79</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-3.0, 0.0, -2.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_79</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-5.0, 0.0, -2.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_79</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-5.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_77</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-4.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_77</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-3.0, 0.0, -4.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_77</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-3.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_77</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-4.0, 0.0, -2.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_77</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-5.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_77</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-5.0, 0.0, -4.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_76</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-4.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_76</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-4.0, 0.0, -4.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_48</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-1.0, 0.0, 4.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_48</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-2.0, 0.0, -2.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_48</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-2.0, 0.0, -2.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_48</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-1.0, 0.0, -2.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_48</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-1.0, 0.0, -2.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_48</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-1.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_48</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-2.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_47</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(2.0, 0.0, 0.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-5.0, 0.0, 0.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-5.0, 0.0, 0.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-5.0, 0.0, 1.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-5.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-5.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-5.0, 0.0, 4.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-7.0, 0.0, 6.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-6.0, 0.0, 6.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-5.0, 0.0, 6.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-5.0, 0.0, 5.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(0.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(1.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-3.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-4.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-5.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-6.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_11</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-2.0, 0.0, 7.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_11</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-5.0, 0.0, 7.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_11</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(3.0, 0.0, 7.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_11</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(5.0, 0.0, 7.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_45</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(3.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(0.0, 0.0, 0.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(1.0, 0.0, 0.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-1.0, 0.0, 0.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-2.0, 0.0, 0.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-3.0, 0.0, 0.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(8.0, 0.0, -2.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(8.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(8.0, 0.0, 0.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(8.0, 0.0, 1.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(8.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(8.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_33</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(4.0, 0.0, 8.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_21</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(2.0, 0.0, -7.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_21</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-7.0, 0.0, 6.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_21</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-7.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_21</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-5.0, 0.0, -8.0)</Position>
+    <Rotation>(0.0, 270.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_21</Prefab>
+    <Material>Terr_Forest_Pac_Obj</Material>
+    <Position>(-1.0, 0.0, -8.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <TerrAssembly>
+    <Prefab>Terr_3</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(-1.0, 0.0, -8.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(0.0, 0.0, 1.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(-1.0, 0.0, 1.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(-3.0, 0.0, 1.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(-4.0, 0.0, 1.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(-4.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(-4.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(-5.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(-5.0, 0.0, 5.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(-3.0, 0.0, 5.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(-2.0, 0.0, 5.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(-1.0, 0.0, 5.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(1.0, 0.0, 5.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(1.0, 0.0, 6.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(3.0, 0.0, 5.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(3.0, 0.0, 4.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(3.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(4.0, 0.0, 3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(4.0, 0.0, 2.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(4.0, 0.0, 1.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(6.0, 0.0, 0.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(4.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(3.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(2.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <TerrAssembly>
+    <Prefab>terr_46</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(2.0, 0.0, 0.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(2.0, 0.0, 0.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(1.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(4.0, 0.0, -2.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(4.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(5.0, 0.0, -2.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(6.0, 0.0, -4.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(6.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(4.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(3.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(3.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <TerrAssembly>
+    <Prefab>Terr_6</Prefab>
+    <Material>Terr_Forest_Pac</Material>
+    <Position>(3.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 90.0, 0.0)</Rotation>
+  </TerrAssembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(3.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(3.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(1.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(1.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(0.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(-1.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(-1.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(1.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(-1.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(-1.0, 0.0, -2.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(-1.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 180.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(-6.0, 0.0, 0.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(-4.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(-3.0, 0.0, -1.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(-4.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(-3.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(-4.0, 0.0, -4.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(-6.0, 0.0, -5.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_R_0</Material>
+    <Position>(-4.0, 0.0, -6.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_G_0</Material>
+    <Position>(-2.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_G_0</Material>
+    <Position>(0.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+  <Brick4Assembly>
+    <Prefab>Brick</Prefab>
+    <Material>TerrWall_G_0</Material>
+    <Position>(2.0, 0.0, -3.0)</Position>
+    <Rotation>(0.0, 0.0, 0.0)</Rotation>
+  </Brick4Assembly>
+</Map>

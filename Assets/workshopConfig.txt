@@ -1,0 +1,14 @@
+money:1600;
+currentWeapon:HeadGun_Lightning;
+boughtWeapon:HeadGun_Canon,HeadGun_Minigun,HeadGun_Rocket,HeadGun_Lightning;
+boughtArmor:4
+boughtMovementSpeed:4
+boughtReloadTime:4
+boughtProjectileSpeed:4
+boughtDamage:4
+weaponPrice:100,200,300,400,500,600;
+armorPrice:100,200,400,800;
+movementSpeedPrice:100,200,400,800;
+reloadTimePrice:100,200,400,800;
+projectileSpeedPrice:100,200,400,800;
+damagePrice:100,200,400,800;
