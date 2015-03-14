@@ -1,0 +1,13 @@
+money:0;
+playerWeapon:HeadGun_Canon;
+//HeadGun_Minigun;
+//HeadGun_Rocket;
+//HeadGun_Lightning;
+//HeadGun_Firethrower;
+//HeadGun_ShockGun;
+boughtWeapon:;//HeadGun_Canon,HeadGun_Minigun,HeadGun_Rocket,HeadGun_Lightning,HeadGun_Firethrower,HeadGun_ShockGun;
+boughtArmor:0;//0 1 2 3 4
+boughtMovementSpeed:0;//0 1 2 3 4
+boughtReloadTime:0;//0 1 2 3 4
+boughtProjectileSpeed:0;//0 1 2 3 4
+boughtDamage:0;//0 1 2 3 4

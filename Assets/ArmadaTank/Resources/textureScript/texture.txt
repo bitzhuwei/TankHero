@@ -1,0 +1,650 @@
+//createtexture 64
+
+texture 0 "TERR" {
+  LoadFile "BaseT\\Texture\\Terr_Forest_Pac.jpg"
+  Run
+}
+
+texture 2 "TERR2" {
+  LoadFile "BaseT\\Texture\\Terr_Sand_Pac_Obj.jpg"
+  Run
+}
+
+
+
+
+
+texture 4 "TANKENEMY" {
+  LoadFile "BaseT\\Texture\\Tank_Enemy512.jpg"
+  Run
+}
+
+texture 5 "WALLBRICK" {
+  LoadFile "BaseT\\Texture\\Terr_05.jpg"
+  Run
+}
+
+texture 6 "WALLSTONE" {
+  LoadFile "BaseT\\Texture\\Terr_01.jpg"
+  Run
+}
+
+texture 7 "WALLBRDM" {
+  LoadFile "BaseT\\Texture\\Terr_01.jpg"
+  Run
+}
+
+
+texture 8 "FIRE" {
+  ColorOp_MODULATE
+  Arg1_TEXTURE
+  Arg2_CURRENT
+  DestBlend_ONE
+  SrcBlend_SRCCOLOR
+  LoadFile "BaseT\\Texture\\Fire.jpg"
+  Run
+}
+
+texture 9 "TANKENEMYRED" {
+  LoadFile "BaseT\\Texture\\Tank_Enemy512_red.jpg" Tank_Enemy_Red2.bmp
+  Run
+}
+
+texture 10 "TANKENEMYDARK" {
+  LoadFile "BaseT\\Texture\\Tank_Enemy512_DARK.jpg" Tank_Enemy_Red2.bmp Tank_Enemy512_Blue
+  Run
+}
+
+
+
+texture 11 "EXPLOSION" {
+  ColorOp_MODULATE
+  SrcBlend_SRCALPHA
+  DestBlend_INVSRCALPHA
+  LoadFile "BaseT\\Texture\\Explosion-256.png" bmp
+  Run
+}
+
+texture 12 "TRACK" {
+  ColorOp_MODULATE
+  Arg1_TEXTURE
+  Arg2_CURRENT
+  DestBlend_INVSRCCOLOR
+  SrcBlend_SRCCOLOR
+  LoadFile "BaseT\\Texture\\Track.bmp"
+  Run
+}
+
+
+texture 13 "SCRPART" {
+  ColorOp_MODULATE
+  SrcBlend_SRCALPHA
+  DestBlend_INVSRCALPHA
+  LoadFile "BaseT\\Texture\\ScreenPart.png"
+  Run
+}
+
+  ColorOp_MODULATE
+  SrcBlend_SRCALPHA
+  DestBlend_INVSRCALPHA
+
+  ColorOp_MODULATE
+  Arg1_TEXTURE
+  Arg2_CURRENT
+  DestBlend_ONE
+  SrcBlend_SRCCOLOR
+
+
+texture 14 "TANKENEMYBLUE" {
+  LoadFile "BaseT\\Texture\\Tank_Enemy512_Blue.jpg"
+  Run
+}
+
+
+texture 16 "TANKPL1" {
+  ColorOp_MODULATE
+  SrcBlend_SRCALPHA
+  DestBlend_INVSRCALPHA
+  LoadFile "BaseT\\Texture\\T_NPlayer.jpg" T_NPlayer.bmp
+  _LoadAlpha "BaseT\\Texture\\A.bmp"
+  Run
+}
+
+texture 17 "TANKPL2" {
+  LoadFile "BaseT\\Texture\\T_NPlayer2.jpg"
+  Run
+}
+
+texture 18 "EFFECTS" {
+  ColorOp_MODULATE
+  Arg1_TEXTURE
+  Arg2_CURRENT
+  DestBlend_ONE
+  SrcBlend_SRCCOLOR
+
+  LoadFile "BaseT\\Texture\\Effects.jpg"
+  Run
+}
+
+texture 19 "ITEMS" {
+
+  LoadFile "BaseT\\Texture\\Items.jpg"
+  Run
+}
+
+texture 20 "ITEMLIGHT" {
+  ColorOp_MODULATE
+  Arg1_TEXTURE
+  Arg2_CURRENT
+  DestBlend_ONE
+  SrcBlend_SRCCOLOR
+  LoadFile "BaseT\\Texture\\ItemLight.jpg"
+  Run
+}
+
+
+
+
+
+
+
+
+
+
+texture 22 "FLAG" {
+  LoadFile "BaseT\\Texture\\flag.jpg"
+  Run
+}
+
+texture 23 "SNOW" {
+  ColorOp_MODULATE
+  Arg1_TEXTURE
+  Arg2_CURRENT
+  DestBlend_ONE
+  SrcBlend_SRCCOLOR
+  LoadFile "BaseT\\Texture\\Snow.jpg"
+  Run
+}
+
+texture 24 "RAIN" {
+  ColorOp_MODULATE
+  Arg1_TEXTURE
+  Arg2_CURRENT
+  DestBlend_ONE
+  SrcBlend_SRCCOLOR
+  LoadFile "BaseT\\Texture\\Rain.jpg"
+  Run
+}
+
+
+
+
+
+texture 26 "WINADV" {
+  ColorOp_MODULATE
+  SrcBlend_SRCALPHA
+  DestBlend_INVSRCALPHA
+  LoadFile "BaseT\\Texture\\WinAdv.png"
+  Run
+}
+
+
+
+texture 28 "SAND" {
+  ColorOp_MODULATE
+  Arg1_TEXTURE
+  Arg2_CURRENT
+  DestBlend_ONE
+  SrcBlend_SRCCOLOR
+  LoadFile "BaseT\\Texture\\Sand.jpg"
+  Run
+}
+
+
+
+
+
+
+
+
+
+texture 30 "FACE" {
+  ColorOp_MODULATE
+  SrcBlend_SRCALPHA
+  DestBlend_INVSRCALPHA
+  LoadFile "BaseT\\Texture\\Face_trans.png" Face.bmp
+  Run
+}
+
+texture 31 "FACESHARP" {
+  ColorOp_MODULATE
+  Arg1_TEXTURE
+  Arg2_CURRENT
+  DestBlend_ONE
+  SrcBlend_SRCCOLOR
+  LoadFile "BaseT\\Texture\\FaceSharp.jpg"
+  Run
+}
+
+texture 32 "LOGO" {
+  ColorOp_MODULATE
+  SrcBlend_SRCALPHA
+  DestBlend_INVSRCALPHA
+  LoadFile "BaseT\\Texture\\logo3a.png" Logo.bmp
+  Run
+}
+
+  State_ColorKey 4278190080 8421504
+  ColorOp_MODULATE
+  Arg1_TEXTURE
+  Arg2_CURRENT
+  DestBlend_INVSRCALPHA
+  SrcBlend_SRCALPHA
+  LoadFile "BaseT\\Texture\\Info_Panel.bmp"
+
+
+
+texture 37 "CMAP" {
+
+  State_ColorKey 4278190080 8421504
+
+  ColorOp_MODULATE
+  Arg1_TEXTURE
+  Arg2_CURRENT
+  DestBlend_INVSRCALPHA
+  SrcBlend_SRCALPHA
+ 
+  LoadFile "BaseT\\Texture\\CMap.jpg"
+  Run
+}
+
+
+texture 38 "MAPPIC" {
+
+  State_ColorKey 4278190080 8421504
+
+  ColorOp_MODULATE
+  Arg1_TEXTURE
+  Arg2_CURRENT
+  DestBlend_INVSRCALPHA
+  SrcBlend_SRCALPHA
+
+  LoadFile "BaseT\\Texture\\MapPic.jpg"
+  Run
+}
+
+texture 39 "MAPPIC_A" {
+
+  State_ColorKey 4278190080 8421504
+
+  ColorOp_MODULATE
+  Arg1_TEXTURE
+  Arg2_CURRENT
+  DestBlend_INVSRCALPHA
+  SrcBlend_SRCALPHA
+
+  LoadFile "BaseT\\Texture\\MapPic_A.bmp"
+  Run
+}
+
+texture 41 "BOX" {
+  ColorOp_MODULATE
+  Arg1_TEXTURE
+  Arg2_CURRENT
+  DestBlend_ONE
+  SrcBlend_SRCCOLOR
+  LoadFile "BaseT\\Texture\\Box.jpg"
+  Run
+}
+
+texture 42 "TANKENEMYINV" {
+  ColorOp_MODULATE
+  Arg1_TEXTURE
+  Arg2_CURRENT
+  DestBlend_ONE
+  SrcBlend_SRCCOLOR
+
+  LoadFile "BaseT\\Texture\\Tank_Enemy512_INV.jpg" Tank_Enemy_Inv.bmp
+  Run
+}
+
+
+
+texture 45 "ITEMSSC" {
+  LoadFile "BaseT\\Texture\\ItemsSc.jpg"
+  Run
+}
+
+texture 46 "ITEMTANK" {
+  LoadFile "BaseT\\Texture\\itemtank.jpg"
+  Run
+}
+
+
+
+
+
+
+
+texture 51 "FLYSHIP" {
+  LoadFile "BaseT\\Texture\\FlyShip.jpg"
+  Run
+}
+
+texture 52 "INFOPAN" {
+  ColorOp_MODULATE
+  SrcBlend_SRCALPHA
+  DestBlend_INVSRCALPHA
+  LoadFile "BaseT\\Texture\\InfoPanel.png" bmp
+  Run
+}
+
+
+  State_ColorKey 4278190080 8421504
+  ColorOp_MODULATE
+  Arg1_TEXTURE
+  Arg2_CURRENT
+  DestBlend_INVSRCALPHA
+  SrcBlend_SRCALPHA
+
+
+texture 53 "PANELIGHT" {
+  ColorOp_MODULATE
+  SrcBlend_SRCALPHA
+  DestBlend_INVSRCALPHA
+  LoadFile "BaseT\\Texture\\PaneLight.png" bmp
+  Run
+}
+
+  ColorOp_SUBTRACT
+  ColorOp_MODULATE
+  Arg1_TEXTURE
+  Arg2_CURRENT
+  DestBlend_INVSRCCOLOR
+  SrcBlend_SRCCOLOR
+
+
+texture 54 "EVOBJECT" {
+  LoadFile "BaseT\\Texture\\EventObject.jpg"
+  Run
+}
+
+texture 55 "BOSS" {
+  LoadFile "BaseT\\Texture\\Boss.jpg"
+  Run
+}
+
+texture 56 "MENUADDON" {
+  ColorOp_MODULATE
+  SrcBlend_SRCALPHA
+  DestBlend_INVSRCALPHA
+
+  LoadFile "BaseT\\Texture\\menuAddon.png"
+  Run
+}
+
+
+texture 57 "FLASH" {
+  ColorOp_MODULATE
+  Arg1_TEXTURE
+  Arg2_CURRENT
+  DestBlend_ONE
+  SrcBlend_SRCCOLOR
+
+  LoadFile "BaseT\\Texture\\Flash.jpg"
+  Run
+}
+
+
+
+texture 58 "PL2HEAD" {
+  LoadFile "BaseT\\Texture\\Tank_Head_Green_p2.jpg"
+  Run
+}
+
+
+texture 59 "PLHEAD" {
+  LoadFile "BaseT\\Texture\\Tank_Head_Green.jpg"
+  Run
+}
+
+texture 60 "WALLB0" {
+  LoadFile "BaseT\\Texture\\TerrWall_R_0.jpg"
+  Run
+}
+
+texture 61 "WALLB1" {
+  LoadFile "BaseT\\Texture\\TerrWall_R_1.jpg"
+  Run
+}
+
+texture 62 "WALLB2" {
+  LoadFile "BaseT\\Texture\\TerrWall_R_2.jpg"
+  Run
+}
+
+texture 63 "WALLB3" {
+  LoadFile "BaseT\\Texture\\TerrWall_R_3.jpg"
+  Run
+}
+
+texture 64 "BULLET" {
+  ColorOp_MODULATE
+  Arg1_TEXTURE
+  Arg2_CURRENT
+  DestBlend_ONE
+  SrcBlend_SRCCOLOR
+
+  LoadFile "BaseT\\Texture\\Bullet.jpg"
+  Run
+}
+
+
+
+texture 68 "BLIGHT" {
+  ColorOp_MODULATE
+  Arg1_TEXTURE
+  Arg2_CURRENT
+  DestBlend_ONE
+  SrcBlend_SRCCOLOR
+  LoadFile "BaseT\\Texture\\Light.jpg"
+  Run
+}
+
+
+texture 71 "SHOP" {
+  LoadFile "BaseT\\Texture\\Shop.jpg"
+  Run
+}
+
+
+
+texture 73 "MSICE" {
+  LoadFile "BaseT\\Texture\\Terr_Ice.jpg" Sky.bmp
+  Run
+}
+
+texture 74 "BUTTON" {
+  ColorOp_MODULATE
+  SrcBlend_SRCALPHA
+  DestBlend_INVSRCALPHA
+  LoadFile "BaseT\\Texture\\Button.png"
+  Run
+}
+
+texture 75 "MSTUND" {
+  LoadFile "BaseT\\Texture\\Terr_Tundra.jpg" Map\\gorr.jpg
+  Run
+}
+
+texture 76 "MSEGYPT" {
+  LoadFile "BaseT\\Texture\\Terr_Egypt_Obj.jpg" Map\\gorr_z.jpg
+  Run
+}
+
+texture 77 "MSFOREST" {
+  LoadFile "BaseT\\Texture\\Terr_Forest_Pac_Obj.jpg" Map\\water.jpg
+  Run
+}
+
+texture 78 "MSSKY" {
+  LoadFile "BaseT\\Texture\\sky.jpg" SKy2.jpg
+  Run
+}
+
+texture 79 "MAPPREV" {
+  LoadFile "BaseT\\Texture\\MapPrev.jpg"
+  Run
+}
+
+
+texture 80 "FLAG123" {
+  LoadFile "BaseT\\Texture\\Flag_123.jpg"
+  Run
+}
+
+
+texture 83 "MAPPREVS" {
+  LoadFile "BaseT\\Texture\\MapPrevS.jpg"
+  Run
+}
+
+texture 84 "MSSNOW" {
+  LoadFile "BaseT\\Texture\\Terr_Snow.jpg" MapPrevS.jpg
+  Run
+}
+
+
+texture 86 "MAPPREVT" {
+  LoadFile "BaseT\\Texture\\MapPrevT.jpg"
+  Run
+}
+
+texture 87 "LOGOENKORD" {
+  LoadFile "BaseT\\Texture\\logo_enkord.png"
+  Run
+}
+
+texture 88 "LOGOLIST" {
+  ColorOp_MODULATE
+  SrcBlend_SRCALPHA
+  DestBlend_INVSRCALPHA
+  LoadFile "BaseT\\Texture\\logo_enkord.png"
+  Run
+}
+
+texture 89 "LASTWIN" {
+  LoadFile "BaseT\\Texture\\WinScreen.JPG"
+  Run
+}
+
+texture 90 "FONTFD" {
+  ColorOp_MODULATE
+  SrcBlend_SRCALPHA
+  DestBlend_INVSRCALPHA
+  LoadFile "BaseT\\Texture\\FontAdv_FD.bmp"
+  LoadAlpha "BaseT\\Texture\\FontAdv_FD.bmp"
+  CreateFont 1
+  Run
+}
+
+texture 91 "FONTFDB" {
+  ColorOp_MODULATE
+  SrcBlend_SRCALPHA
+  DestBlend_INVSRCALPHA
+  LoadFile "BaseT\\Texture\\FontAdv_FD.bmp"
+  LoadAlpha "BaseT\\Texture\\FontAdv_FD.bmp"
+  CreateFont 1
+  Color 91 0xFF111111 
+  Run
+}
+
+texture 92 "FONTFD224" {
+  ColorOp_MODULATE
+  SrcBlend_SRCALPHA
+  DestBlend_INVSRCALPHA
+  LoadFile "BaseT\\Texture\\FontAdv_FD_224.bmp"
+  LoadAlpha "BaseT\\Texture\\FontAdv_FD_224.bmp"
+  CreateFont 1
+  Run
+}
+
+texture 93 "FONTFD224B" {
+  ColorOp_MODULATE
+  SrcBlend_SRCALPHA
+  DestBlend_INVSRCALPHA
+  LoadFile "BaseT\\Texture\\FontAdv_FD_224.bmp"
+  LoadAlpha "BaseT\\Texture\\FontAdv_FD_224.bmp"
+  CreateFont 1
+  Color 93 0xFF111111
+  Run
+}
+
+texture 94 "FONTFD224R" {
+  ColorOp_MODULATE
+  SrcBlend_SRCALPHA
+  DestBlend_INVSRCALPHA
+  LoadFile "BaseT\\Texture\\FontAdv_FD_224.bmp"
+  LoadAlpha "BaseT\\Texture\\FontAdv_FD_224.bmp"
+  CreateFont 1
+  Color 94 0xFFFFBBBB
+  Run
+}
+
+texture 95 "FONTFDR" {
+  ColorOp_MODULATE
+  SrcBlend_SRCALPHA
+  DestBlend_INVSRCALPHA
+  LoadFile "BaseT\\Texture\\FontAdv_FD.bmp"
+  LoadAlpha "BaseT\\Texture\\FontAdv_FD.bmp"
+  CreateFont 1
+  Color 95 0xFFFF8888 BBBB
+  Run
+}
+
+texture 96 "FONTFD224Y" {
+  ColorOp_MODULATE
+  SrcBlend_SRCALPHA
+  DestBlend_INVSRCALPHA
+  LoadFile "BaseT\\Texture\\FontAdv_FD_224.bmp"
+  LoadAlpha "BaseT\\Texture\\FontAdv_FD_224.bmp"
+  CreateFont 1
+  Color 96 0xFFFFFFBB
+  Run
+}
+
+texture 97 "FONTFD128" {
+  ColorOp_MODULATE
+  SrcBlend_SRCALPHA
+  DestBlend_INVSRCALPHA
+  LoadFile "BaseT\\Texture\\FontAdv_FD_128.bmp"
+  LoadAlpha "BaseT\\Texture\\FontAdv_FD_128.bmp"
+  CreateFont 1
+  Run
+}
+
+texture 98 "BUTTONLIGHT" {
+  ColorOp_MODULATE
+  SrcBlend_SRCALPHA
+  DestBlend_INVSRCALPHA
+
+  ColorOp_MODULATE
+  Arg1_TEXTURE
+  Arg2_CURRENT
+  DestBlend_ONE
+  SrcBlend_SRCCOLOR
+
+  LoadFile "BaseT\\Texture\\Button_Light.jpg"
+  _LoadAlpha "BaseT\\Texture\\Button_Light.bmp"
+  Run
+}
+
+ 
+texture 105 "MAPT" {
+  LoadFile "BaseT\\Texture\\_Map_T.jpg"
+  Run
+}
+
+
+
+

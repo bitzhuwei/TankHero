@@ -1,0 +1,46 @@
+//createtexture 64
+
+texture 0 "TERR" {
+  LoadFile "BaseT\\Texture\\Terr_Sand_Pac.jpg"
+  Run
+}
+
+texture 2 "TERR2" {
+  LoadFile "BaseT\\Texture\\Terr_Sand_Pac_Obj.jpg"
+  Run
+}
+
+_texture 5 "WALLBRICK" {
+  _LoadFile "BaseT\\Texture\\Terr_06.jpg"
+  _Run
+}
+
+texture 6 "WALLSTONE" {
+  LoadFile "BaseT\\Texture\\Terr_01.jpg"
+  Run
+}
+
+_texture 7 "WALLBRDM" {
+  _LoadFile "BaseT\\Texture\\Terr_09.jpg"
+  _Run
+}
+
+texture 60 "WALLB0" {
+  LoadFile "BaseT\\Texture\\TerrWall_Y_0.jpg"
+  Run
+}
+
+texture 61 "WALLB1" {
+  LoadFile "BaseT\\Texture\\TerrWall_Y_1.jpg"
+  Run
+}
+
+texture 62 "WALLB2" {
+  LoadFile "BaseT\\Texture\\TerrWall_Y_2.jpg"
+  Run
+}
+
+texture 63 "WALLB3" {
+  LoadFile "BaseT\\Texture\\TerrWall_Y_3.jpg"
+  Run
+}

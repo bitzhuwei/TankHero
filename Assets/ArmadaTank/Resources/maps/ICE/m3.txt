@@ -1,0 +1,273 @@
+map 3
+
+cost 200
+
+gametype  BF
+texscript BaseT\Script\texture-ice.scr
+mdlscript BaseT\Script\model.scr
+weather NONE
+
+fog 0
+
+music {
+  track modf BaseT\Music\game.it
+  track modf BaseT\Music\game.it
+  endmusic
+}
+
+nextmap 1 BaseT\Map\ICE\m4.map
+
+items CMXRBZ
+
+help 3 C R B 
+
+message F
+
+tank 34  2P 2P 2PP 
+
+
+2 1 1 2HC 3HC 1 1 2HC 3HC 3HC 1C 2 1 1 2CD
+
+3C 3C 1 2C 3C 3C 1T 2H 2H 2H 1T 1T 2 2 1T 2
+
+size 23 22 
+
+flag 11 4 FLAGI FLAG123  FLAG FLAG 
+
+eventobj { 
+  evob 5 3 10 
+  evob 6 3 11 
+  evob 5 3 12 
+  evob 6 3 13 
+  evob 5 18 10 
+  evob 7 6 10 
+  evob 7 15 10 
+  evob 6 19 11 
+  evob 5 19 12 
+  evob 6 19 13 
+  endeventobj 
+} 
+
+respawn { 
+  rsp 0 9 4 
+  rsp 1 13 4 
+  rsp 2 2 2 
+  rsp 3 2 2 
+  rsp 4 6 17 
+  rsp 5 9 17 
+  rsp 6 13 17 
+  rsp 7 16 17 
+  endrespawn 
+} 
+
+terrtype { 
+  type 0 TERR0 NWF 
+  type 1 TERR1 NWF 
+  type 2 TERR2 NWF 
+  type 3 TERR3 NWF 
+  type 4 TERR4 NWF 
+  type 5 TERR5 NWF 
+  type 6 TERR6 N 
+  type 7 TERR7 N 
+  type 8 TERR8 N 
+  type 9 TERR9 N 
+  type 10 TERR10 NW 
+  type 11 TERR11 NWF 
+  type 12 TERR12 NWF 
+  type 13 TERR13 N 
+  type 14 TERR14 NWF 
+  type 15 TERR15 N 
+  type 16 TERR16 N 
+  type 17 TERR17 N 
+  type 19 TERR19 NWF 
+  type 20 TERR20 NWF 
+  type 21 TERR21 N 
+  type 22 TERR22 N 
+  type 23 TERR23 N 
+  type 24 TERR24 N 
+  type 25 TERR25 N 
+  type 26 TERR26 N 
+  type 27 TERR27 NWF 
+  type 28 TERR28 N 
+  type 29 TERR29 N 
+  type 30 TERR30 N 
+  type 31 TERR6 NWF 
+  type 32 TERR32 N 
+  type 33 TERR33 N 
+  type 34 TERR34 NWF 
+  type 35 TERR35 NWF 
+  type 36 TERR36 N 
+  type 38 TERR38 NWF 
+  type 39 TERR39 NWF 
+  type 40 TERR40 NWF 
+  type 41 TERR41 N 
+  type 42 TERR42 N 
+  type 43 TERR43 N 
+  type 44 TERR44 N 
+  type 45 TERR45 N 
+  type 46 TERR46 N 
+  type 47 TERR47 N 
+  type 48 TERR48 N 
+  type 49 TERR49 NWF 
+  type 50 TERR50 N 
+  type 51 TERR51 N 
+  type 52 TERR52 N 
+  type 53 TERR53 NWF 
+  type 54 TERR54 NWF 
+  type 55 TERR55 NWF 
+  type 56 TERR2 NWF 
+  type 57 TERR8 N 
+  type 58 TERR8 N 
+  type 59 TERR59 N 
+  type 60 TERR60 N 
+  type 61 TERR61 N 
+  type 63 TERR63 NWF 
+  type 64 TERR64 N 
+  type 65 TERR65 N 
+  type 66 TERR66 NWF 
+  type 67 TERR67 N 
+  type 68 TERR68 NWF 
+  type 69 TERR69 NWF 
+  type 70 TERR70 NWF 
+  type 71 TERR71 NWF 
+  type 72 TERR11 NWF 
+  type 73 TERR9 N 
+  type 74 TERR0 NWF 
+  type 75 TERR75 NWF 
+  type 76 TERR76 N 
+  type 77 TERR77 N 
+  type 78 TERR78 N 
+  type 79 TERR79 N 
+  type 80 TERR12 NWF 
+  type 81 TERR13 N 
+  type 82 TERR14 NWF 
+  type 83 TERR14 NWF 
+  type 84 TERR24 N 
+  type 85 TERR5 NWF 
+  type 86 TERR3 NWF 
+  type 87 TERR4 NWF 
+  type 88 TERR4 NWF 
+  type 89 TERR4 NWF 
+  type 90 TERR90 NWF 
+  type 91 TERR91 NWF 
+  type 92 TERR92 NWF 
+  type 93 TERR93 NWF 
+  type 94 TERR94 NWF 
+  type 97 TERR16 N 
+  type 98 TERR17 N 
+  type 99 TERR18 N 
+  type 100 TERR24 N 
+  type 101 TERR8 N 
+  type 102 TERR8 N 
+  type 103 TERR23 N 
+  type 104 TERR23 N 
+  type 105 TERR45 N 
+  type 106 TERR46 N 
+  type 107 TERR46 N 
+  type 108 TERR46 N 
+  type 109 TERR46 N 
+  type 110 TERR47 N 
+  type 111 TERR47 N 
+  endterr 
+} 
+
+wall { 
+  ln "                                              " 
+  ln "                                              " 
+  ln "                                              " 
+  ln "                                              " 
+  ln "                                              " 
+  ln "                                              " 
+  ln "                                              " 
+  ln "                                              " 
+  ln "                                              " 
+  ln "                                              " 
+  ln "          ####                ######          " 
+  ln "          ####                ######          " 
+  ln "            ##                                " 
+  ln "            ##                                " 
+  ln "            ##                                " 
+  ln "            ##                                " 
+  ln "                                              " 
+  ln "                                              " 
+  ln "                                              " 
+  ln "                                              " 
+  ln "                                              " 
+  ln "                                              " 
+  ln "                                              " 
+  ln "                                              " 
+  ln "                                              " 
+  ln "                                              " 
+  ln "                                              " 
+  ln "                                              " 
+  ln "                    ####                      " 
+  ln "                    ####                      " 
+  ln "            ##  ##          ##    ##          " 
+  ln "            ##  ##          ##    ##          " 
+  ln "          ####      &&&&&&  ####  ##          " 
+  ln "          ####      &&&&&&  ####  ##          " 
+  ln "                ##  &&  &&                    " 
+  ln "                ##  &&  &&                    " 
+  ln "                                              " 
+  ln "                                              " 
+  ln "                                              " 
+  ln "                                              " 
+  ln "                                              " 
+  ln "                                              " 
+  ln "                                              " 
+  ln "                                              " 
+  endwall 
+} 
+
+terr { 
+  ln 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 	
+  ln 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N1 3 N 3 N 3 N 3 N 3 N 3 N 3 N 	
+  ln 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 	
+  ln 3 N1 3 N1 3 N1 69 N 66 N1 66 N1 70 N2 66 N1 66 N1 70 N2 66 N1 66 N1 66 N1 70 N2 66 N1 66 N1 70 N2 66 N1 66 N1 69 N1 3 N 3 N 3 N 	
+  ln 3 N1 3 N1 3 N1 66 N 6 N12 6 N12 6 N12 6 N 6 N 6 N12 6 N12 6 N12 6 N12 6 N12 6 N12 6 N 6 N 6 N 6 N 66 N2 3 N 3 N 3 N 	
+  ln 66 N1 66 N1 66 N1 68 N 6 N 6 N12 6 N12 67 N1 64 N1 64 N1 64 N1 64 N1 64 N1 64 N1 67 N2 6 N12 6 N12 6 N12 6 N12 68 N1 69 N1 3 N 3 N 	
+  ln 64 N1 64 N1 64 N1 71 N1 64 N1 67 N2 6 N12 64 N 10 N 10 N 13 N12 10 N 10 N 10 N 64 N2 6 N12 67 N1 64 N1 71 N1 67 N2 66 N2 3 N 3 N 	
+  ln 10 N 10 N 10 N 10 N 10 N 64 N2 6 N12 64 N 13 N 65 N12 64 N12 64 N12 65 N 13 N 64 N2 94 N12 64 N 10 N 10 N 64 N2 66 N2 3 N 3 N 	
+  ln 64 N12 64 N12 64 N12 65 N 10 N 65 N2 64 N1 65 N1 10 N 65 N2 67 N2 67 N1 65 N1 10 N 65 N2 64 N1 65 N1 10 N 10 N 64 N2 66 N2 3 N 3 N 	
+  ln 6 N12 68 N2 68 N12 64 N 10 N 10 N 13 N12 10 N 10 N 10 N 64 N2 64 N 10 N 10 N 10 N 10 N 10 N 10 N 10 N 64 N2 68 N1 66 N1 66 N1 	
+  ln 6 N12 68 N1 68 N 64 N 10 N 65 N12 64 N12 65 N 10 N 65 N12 67 N12 67 N 65 N 10 N 65 N12 64 N12 65 N 10 N 65 N12 67 N12 6 N12 6 N12 6 N12 	
+  ln 64 N1 64 N1 64 N1 65 N1 10 N 64 N2 6 N12 64 N 13 N2 65 N2 64 N1 64 N1 65 N1 13 N2 64 N2 6 N12 64 N 10 N 65 N2 64 N1 64 N1 64 N1 64 N1 	
+  ln 10 N 10 N 10 N 10 N 10 N 65 N2 64 N1 65 N1 10 N 10 N 10 N 10 N 10 N 10 N 65 N2 64 N1 65 N1 10 N 10 N 10 N 10 N 10 N 10 N 	
+  ln 64 N12 64 N12 64 N12 65 N 10 N 10 N 13 N12 10 N 10 N 65 N12 64 N12 64 N12 65 N 10 N 10 N 13 N1 10 N 10 N 65 N12 71 N12 64 N12 64 N12 64 N12 	
+  ln 66 N12 66 N12 68 N12 67 N 71 N12 64 N12 64 N12 64 N12 64 N12 67 N12 6 N12 6 N12 67 N 64 N12 64 N12 64 N12 64 N12 64 N12 67 N12 66 N2 3 N 3 N 3 N 	
+  ln 3 N1 3 N1 69 N12 68 N12 6 N12 6 N12 6 N12 6 N12 6 N12 6 N12 6 N12 6 N12 6 N12 6 N12 6 N12 6 N12 6 N12 6 N 6 N12 66 N2 3 N 3 N 3 N 	
+  ln 3 N1 3 N1 3 N1 66 N 6 N12 6 N 6 N12 6 N12 6 N12 6 N12 6 N12 6 N12 6 N12 6 N12 6 N12 6 N12 6 N 6 N 6 N 66 N2 3 N 3 N 3 N 	
+  ln 3 N1 3 N1 3 N1 66 N 6 N12 6 N 6 N 6 N 6 N12 6 N12 6 N12 6 N12 6 N12 6 N12 6 N12 6 N 6 N 6 N 6 N 66 N2 3 N 3 N 3 N 	
+  ln 3 N1 3 N1 3 N1 69 N12 66 N12 66 N12 66 N12 66 N12 66 N12 66 N12 66 N12 66 N12 66 N12 66 N12 66 N12 66 N12 66 N12 66 N12 66 N12 69 N2 3 N 3 N 3 N 	
+  ln 3 N1 3 N1 3 N1 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 	
+  ln 3 N1 3 N1 3 N1 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 	
+  ln 3 N1 3 N1 3 N1 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 3 N 	
+  endterr 
+} 
+
+terr2 { 
+  ln 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 	
+  ln 256 N 256 N 256 N 256 N 256 N 256 N 66 N34 256 N 256 N 66 N234 66 N34 256 N 256 N 256 N 256 N 66 N234 256 N 256 N 66 N34 256 N 256 N 256 N 256 N 	
+  ln 66 N134 66 N134 66 N134 66 N134 66 N134 66 N134 68 N34 256 N1235 256 N1235 68 N134 68 N34 256 N1235 256 N1235 256 N1235 256 N1235 68 N134 66 N134 66 N134 68 N34 256 N1235 256 N1235 256 N 256 N 	
+  ln 256 N 256 N 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N 256 N 	
+  ln 256 N 256 N 94 N15 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 94 N25 256 N 256 N 	
+  ln 256 N 256 N 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N 256 N 	
+  ln 256 N 256 N 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N 256 N 	
+  ln 256 N 256 N 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N 256 N 	
+  ln 256 N 256 N 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N 256 N 	
+  ln 256 N 256 N12 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N 256 N 	
+  ln 256 N 256 N 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N 256 N 	
+  ln 256 N 256 N 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N 256 N 	
+  ln 256 N 256 N 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N 256 N 	
+  ln 256 N 256 N 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N 256 N 	
+  ln 256 N 256 N 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N 256 N 	
+  ln 256 N 256 N 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N 256 N 	
+  ln 256 N 256 N 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N 256 N 	
+  ln 256 N 256 N 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N 256 N 	
+  ln 256 N 256 N 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N 256 N 	
+  ln 256 N 256 N 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 94 N15 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N1235 256 N 256 N 	
+  ln 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 	
+  ln 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 256 N 	
+  endterr 
+} 
+
