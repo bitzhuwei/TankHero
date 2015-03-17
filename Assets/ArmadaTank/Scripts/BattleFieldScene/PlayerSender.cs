@@ -2,6 +2,15 @@
 using System.Collections;
 
 public class PlayerSender : MonoBehaviour {
+
+#if UNITY_ANDROID
+    public TouchPanelTouching goUp;
+    public TouchPanelTouching goDown;
+    public TouchPanelTouching goLeft;
+    public TouchPanelTouching goRight;
+    public TouchPanelTouching goCenter;
+#endif
+
     private WorkshopConfigLoader workshopConfigLoader;
     private GameObject player;
 
@@ -15,22 +24,29 @@ public class PlayerSender : MonoBehaviour {
 	void Update () {
         if(!player)
         {
-            var newPlayer = ResourcesManager.Instantiate(PrefabFolder.BattleField + @"/" + "Player");
-            newPlayer.transform.position = new Vector3(-2, 0, -6);
+            player = ResourcesManager.Instantiate(PrefabFolder.BattleField + @"/" + "Player");
+            player.transform.position = new Vector3(-2, 0, -6);
             var config = this.workshopConfigLoader.config;
-            var armor = newPlayer.GetComponentInChildren<Armor>();
+            var armor = player.GetComponentInChildren<Armor>();
             armor.prefab = (Armor.PrefabOption)config.boughtArmor;
-            var damage = newPlayer.GetComponentInChildren<DamageLevel>();
+            var damage = player.GetComponentInChildren<DamageLevel>();
             damage.prefab = (DamageLevel.PrefabOption)config.boughtDamage;
-            var reloadTime = newPlayer.GetComponentInChildren<ReloadTimeLevel>();
+            var reloadTime = player.GetComponentInChildren<ReloadTimeLevel>();
             reloadTime.prefab = (ReloadTimeLevel.PrefabOption)config.boughtReloadTime;
-            var addMovementSpeed = newPlayer.GetComponentInChildren<AddMovementSpeed>();
+            var addMovementSpeed = player.GetComponentInChildren<AddMovementSpeed>();
             addMovementSpeed.prefab = (AddMovementSpeed.PrefabOption)config.boughtMovementSpeed;
-            var projectileSpeed = newPlayer.GetComponentInChildren<ProjectileSpeed>();
+            var projectileSpeed = player.GetComponentInChildren<ProjectileSpeed>();
             projectileSpeed.prefab = (ProjectileSpeed.PrefabOption)config.boughtProjectileSpeed;
-            var headGun = newPlayer.GetComponentInChildren<HeadGun>();
+            var headGun = player.GetComponentInChildren<HeadGun>();
             headGun.prefab = config.currentWeapon;
-            this.player = newPlayer;
-        }
+#if UNITY_ANDROID
+            var touchState = player.GetComponent<AndroidTouchState>();
+            touchState.goUp = goUp;
+            touchState.goDown = goDown;
+            touchState.goLeft = goLeft;
+            touchState.goRight = goRight;
+            touchState.goCenter = goCenter;
+#endif
+       }
 	}
 }

@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Brick1Health : MonoBehaviour
 {
-    static System.Collections.Generic.Dictionary<Material, Material> nextMaterial;
+    //static System.Collections.Generic.Dictionary<Material, Material> nextMaterial;
     static BrickMaterialManager manager;
     public float health;
     private GameObject deadAnimation;

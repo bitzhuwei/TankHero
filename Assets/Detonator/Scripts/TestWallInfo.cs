@@ -11,7 +11,7 @@ public class TestWallInfo : MonoBehaviour {
     public GameObject wall;
     GameObject _currentWall;
     float _spawnWallTime = -1000;
-    Rect _guiRect;
+    //Rect _guiRect;
 
     // Use this for initialization
     void Start()

@@ -512,6 +512,7 @@ public class OriginalMap
                     || prefabName == PrefabName.strTerr_107)
                 {
                     var gameObj = ResourcesManager.Instantiate(PrefabFolder.BattleField + @"/" + "Bullet_MapShow");
+                    gameObj.GetComponentInChildren<MeshRenderer>().enabled = false;
                     gameObj.transform.position = position;
                     gameObj.transform.rotation = rotation;
                     if (prefabName == PrefabName.strTerr_107)

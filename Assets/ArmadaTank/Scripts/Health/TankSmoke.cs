@@ -19,12 +19,13 @@ public class TankSmoke : MonoBehaviour
         if (lastHealth != tankHealthScript.health)
         {
             var lostHealth = (TankHealth.maxHealth - tankHealthScript.health);
-            if (lastHealth <= 0)
+            if (lostHealth <= 0)
             {
                 this.particleSystem.enableEmission = false;
             }
             else
             {
+                this.particleSystem.Play();
                 this.particleSystem.enableEmission = true;
                 this.particleSystem.emissionRate = 50 * lostHealth / TankHealth.maxHealth;
             }

@@ -5,6 +5,7 @@ public class PlayerGunTrigger : MonoBehaviour
 {
     private BulletEmitterBase bulletEmitter;
     private BattleFieldStateManager stateManager;
+    private AndroidTouchState touchState;
     void Awake()
     {
         this.bulletEmitter = this.GetComponent<BulletEmitterBase>();
@@ -12,6 +13,7 @@ public class PlayerGunTrigger : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        this.touchState = this.GetComponentInParent<AndroidTouchState>();
         var obj = GameObject.FindGameObjectWithTag(Tags.BattleFieldManager);
         this.stateManager = obj.GetComponent<BattleFieldStateManager>();
     }
@@ -29,13 +31,11 @@ public class PlayerGunTrigger : MonoBehaviour
                 return;
             }
         }
-        if (Input.GetMouseButton(0))
-        {
-            this.bulletEmitter.emitting = true;
-        }
-        else
-        {
-            this.bulletEmitter.emitting = false;
-        }
+#if UNITY_ANDROID
+        var fireTarget = this.touchState.GetPlayerFireTarget();
+        this.bulletEmitter.emitting = fireTarget.HasValue;
+#else
+        this.bulletEmitter.emitting = Input.GetMouseButton(0);
+#endif
     }
 }

@@ -37,12 +37,12 @@ public abstract class BulletBase : MonoBehaviour {
 	// Use this for initialization
     protected virtual void Start()
     {
-        if (!stateManager)
+        var obj = GameObject.FindGameObjectWithTag(Tags.BattleFieldManager);
+        if (obj)
         {
-            var obj = GameObject.FindGameObjectWithTag(Tags.BattleFieldManager);
             stateManager = obj.GetComponent<BattleFieldStateManager>();
         }
-	}
+    }
 	
 	// Update is called once per frame
     protected virtual void Update()

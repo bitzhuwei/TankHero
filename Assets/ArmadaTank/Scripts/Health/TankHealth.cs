@@ -7,6 +7,7 @@ public abstract class TankHealth : MonoBehaviour
     public float health;
     protected IConfig baseModelConfig;
     protected GameObject deadAnimation;
+    public Transform explosion;
 
     protected virtual void Awake()
     {
@@ -28,18 +29,21 @@ public abstract class TankHealth : MonoBehaviour
         {
             var position = this.transform.position;
             position.y = 0.2f;
+            var rotation = Quaternion.Euler(new Vector3(0, Random.Range(0, 360), 0));
             deadAnimation = ResourcesManager.Instantiate(
                 PrefabFolder.BattleField + @"/" + PrefabName.strTankExpl,
-                position,
-                Quaternion.Euler(new Vector3(0, Random.Range(0, 360), 0)));
+                position, rotation);
             var setMaterials = deadAnimation.GetComponentsInChildren<SetMaterial>(true);
             var mat = baseModelConfig.GetMaterial();
             foreach (var item in setMaterials)
             {
                 item.SetMaterialByName(mat);
             }
+
+            Instantiate(explosion, position, rotation);
+
             Destroy(this.transform.parent.gameObject);
-            Destroy(deadAnimation, 10);
+            //Destroy(deadAnimation, 10);
         }
     }
 

@@ -9,10 +9,9 @@ public class PlayerBulletEmitter : BulletEmitterBase {
     protected override void Awake()
     {
         base.Awake();
-        this.gun = this.GetComponent<HeadGun>();
-        this.gun.damageChanged += gun_damageChanged;
-        this.gun.reloadTimeChanged += gun_reloadTimeChanged;
+
     }
+
 
     void projectileSpeed_prefabChanged(string prefabName, string lastPrefabName, AssemblyConfig assembly)
     {
@@ -33,6 +32,9 @@ public class PlayerBulletEmitter : BulletEmitterBase {
     protected override void Start()
     {
         base.Start();
+        this.gun = this.GetComponent<HeadGun>();
+        this.gun.damageChanged += gun_damageChanged;
+        this.gun.reloadTimeChanged += gun_reloadTimeChanged;
         this.projectileSpeed = this.transform.parent.GetComponentInChildren<ProjectileSpeed>();
         this.projectileSpeed.prefabChanged += projectileSpeed_prefabChanged;
         RefreshPlayerConfig();
@@ -43,6 +45,7 @@ public class PlayerBulletEmitter : BulletEmitterBase {
         this.reloadTime = this.gun.reloadTime;
         this.passedReloadTime = this.reloadTime;
         this.bulletName = this.gun.GetBulletName();
+        this.damage = this.gun.damage;
         var name = this.gun.GetAudioClipName();
         if (audioClipManager)
         { this.emittingSound.clip = audioClipManager.AudioClipDict[name]; }
