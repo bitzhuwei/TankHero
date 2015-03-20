@@ -62,7 +62,7 @@ public class AndroidTouchState : MonoBehaviour
             builder.AppendLine(goRight.ToString());
             builder.Append("Center: ");
             builder.AppendLine(goCenter.ToString());
-            txtInfo.text = builder.ToString();
+            //txtInfo.text = builder.ToString();
             this.lastUpdatedTime = Time.time;
         }
 #endif

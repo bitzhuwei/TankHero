@@ -7,11 +7,15 @@ using System.Collections.Generic;
 public class PlayerTransform : TankTransform
 {
     private BattleFieldStateManager stateManager;
+#if UNITY_ANDROID
     private AndroidTouchState touchState;
+#endif
 
     public override void Start()
     {
+#if UNITY_ANDROID
         this.touchState = this.GetComponent<AndroidTouchState>();
+#endif
         var obj = GameObject.FindGameObjectWithTag(Tags.BattleFieldManager);
         if (obj)
         { this.stateManager = obj.GetComponent<BattleFieldStateManager>(); }

@@ -5,7 +5,9 @@ public class PlayerGunTrigger : MonoBehaviour
 {
     private BulletEmitterBase bulletEmitter;
     private BattleFieldStateManager stateManager;
+#if UNITY_ANDROID
     private AndroidTouchState touchState;
+#endif
     void Awake()
     {
         this.bulletEmitter = this.GetComponent<BulletEmitterBase>();
@@ -13,7 +15,9 @@ public class PlayerGunTrigger : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+#if UNITY_ANDROID
         this.touchState = this.GetComponentInParent<AndroidTouchState>();
+#endif
         var obj = GameObject.FindGameObjectWithTag(Tags.BattleFieldManager);
         this.stateManager = obj.GetComponent<BattleFieldStateManager>();
     }

@@ -8,8 +8,9 @@ public class PlayerHeadRotation : MonoBehaviour
     public float rotationSpeed = 20f;//degrees
     private Vector3 lastRotation;
     private BattleFieldStateManager stateManager;
+#if UNITY_ANDROID
     private AndroidTouchState touchState;
-
+#endif
     //public UnityEngine.UI.Text txtInfo;
     // Use this for initialization
     void Start()
@@ -18,7 +19,9 @@ public class PlayerHeadRotation : MonoBehaviour
         //{
         //    txtInfo = GameObject.FindGameObjectWithTag(Tags.txtInfo).GetComponent<UnityEngine.UI.Text>();
         //}
+#if UNITY_ANDROID
         this.touchState = this.GetComponentInParent<AndroidTouchState>();
+#endif
         var obj = GameObject.FindGameObjectWithTag(Tags.BattleFieldManager);
         if (obj)
         { this.stateManager = obj.GetComponent<BattleFieldStateManager>(); }
@@ -86,7 +89,7 @@ public class PlayerHeadRotation : MonoBehaviour
         //builder.Append(")");
         //txtInfo.text = builder.ToString();
 #else
-        TurnToPoint(input.mousePosition);
+        TurnToPoint(Input.mousePosition);
 #endif
     }
 
