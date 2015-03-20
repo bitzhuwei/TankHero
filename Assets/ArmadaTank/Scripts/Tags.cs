@@ -18,7 +18,7 @@ public class Tags
     public const string EnemyObstacleDetector = "EnemyObstacleDetector";
     public const string EnemyObstacleDetectorCenter = "EnemyObstacleDetectorCenter";
     public const string WorkshopConfig = "WorkshopConfig";
-    public static string BattleFieldManager = "BattleFieldManager";
-    public static string txtInfo = "txtInfo";
+    public const string BattleFieldManager = "BattleFieldManager";
+    public const string txtInfo = "txtInfo";
 
 }

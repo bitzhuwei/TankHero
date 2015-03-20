@@ -4,7 +4,7 @@ using System.Xml.Linq;
 
 public class SelectMapManager : MonoBehaviour {
 
-    private System.Collections.Generic.List<string> warProgressList;
+    //private System.Collections.Generic.List<string> warProgressList;
     public string selectedEpisode;
     public string selectedMap;
     private string defaultSelectMapConfig ="";// @"episode1map1;";
@@ -13,24 +13,20 @@ public class SelectMapManager : MonoBehaviour {
         DontDestroyOnLoad(this.gameObject);
     }
 
-    static readonly char[] pairsSeparator = new char[] { ';' };
+    private SelectMapConfig config;
     // Use this for initialization
     void Start()
     {
-        warProgressList = new System.Collections.Generic.List<string>();
+        //warProgressList = new System.Collections.Generic.List<string>();
         var content = FileHelper.Read(ConfigFilenames.SelectMapConfig);
         if (content == string.Empty)
         {
             FileHelper.Write(ConfigFilenames.SelectMapConfig, defaultSelectMapConfig);
             content = defaultSelectMapConfig;
         }
-        var pairs = content.Split(pairsSeparator, System.StringSplitOptions.RemoveEmptyEntries);
-        foreach (var pair in pairs)
-        {
-            warProgressList.Add(pair);
-        }
-        this.selectedEpisode = "episode1";
-        this.selectedMap = "map1";
+        this.config = SelectMapConfig.Parse(content);
+        this.selectedEpisode = this.config.NextEpisode();// "episode1";
+        this.selectedMap = this.config.NextMap();// "map1";
     }
 
     // Update is called once per frame
@@ -46,7 +42,7 @@ public class SelectMapManager : MonoBehaviour {
         {
             var key = string.Format("{0}map{1}",
                 episodeName, (i + 1));
-            if (!this.warProgressList.Contains(key))
+            if (!this.config.warProgressList.Contains(key))
             {
                 { return false; }
             }
@@ -58,7 +54,7 @@ public class SelectMapManager : MonoBehaviour {
     {
         {
             var key = string.Format("{0}{1}", selectedEpisode, mapName);
-            if (this.warProgressList.Contains(key))
+            if (this.config.warProgressList.Contains(key))
             {
                 return true;
             }
@@ -75,7 +71,7 @@ public class SelectMapManager : MonoBehaviour {
         for (int i = 1; i < mapCount; i++)
         {
             var key = string.Format("{0}map{1}", selectedEpisode, i);
-            if(!this.warProgressList.Contains(key))
+            if(!this.config.warProgressList.Contains(key))
             { return false; }
         }
 

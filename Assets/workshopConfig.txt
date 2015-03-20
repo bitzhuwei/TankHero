@@ -1,4 +1,4 @@
-money:1600;
+money:3867;
 currentWeapon:HeadGun_Minigun;
 boughtWeapon:HeadGun_Canon,HeadGun_Minigun,HeadGun_Rocket,HeadGun_Lightning;
 boughtArmor:4

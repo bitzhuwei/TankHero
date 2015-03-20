@@ -31,10 +31,10 @@ public class AndroidTouchState : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        if (!txtInfo)
-        {
-            txtInfo = GameObject.FindGameObjectWithTag(Tags.txtInfo).GetComponent<UnityEngine.UI.Text>();
-        }
+        //if (!txtInfo)
+        //{
+        //    txtInfo = GameObject.FindGameObjectWithTag(Tags.txtInfo).GetComponent<UnityEngine.UI.Text>();
+        //}
     }
 
     // Update is called once per frame

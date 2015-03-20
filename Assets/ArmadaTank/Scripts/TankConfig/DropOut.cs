@@ -6,6 +6,7 @@ public class DropOut : MonoBehaviour
     public float dropOutSpeed = 1f;
     private Vector3 destPosition;
     public ThreeDSAnimation threeDSAnimation;
+    private float cycle;
     private float passed;
     private float startFadeOutTime;
     private Vector3 startPosition;
@@ -13,7 +14,7 @@ public class DropOut : MonoBehaviour
     void Start()
     {
         startFadeOutTime = 0;
-        //this.threeDSAnimation = this.GetComponent<ThreeDSAnimation>();
+        this.threeDSAnimation = this.GetComponent<ThreeDSAnimation>();
     }
 
     // Update is called once per frame
@@ -31,6 +32,10 @@ public class DropOut : MonoBehaviour
         else
         {
             passed += Time.deltaTime;
+            if(!threeDSAnimation)
+            {
+                Debug.Break();
+            }
             if (passed >= threeDSAnimation.cycle * 3)
             {
                 startFadeOutTime = Time.time;

@@ -3,6 +3,8 @@ using System.Collections;
 
 public class OK_BattleField : MonoBehaviour {
 
+    public WinInBattleField winInBattleField;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -15,21 +17,25 @@ public class OK_BattleField : MonoBehaviour {
 
     public void WinPanelOK_Click()
     {
-        var selectMapManager = GameObject.FindGameObjectWithTag(Tags.SelectMapManager);
-        var manager = selectMapManager.GetComponent<SelectMapManager>();
-        var content = FileHelper.Read(ConfigFilenames.SelectMapConfig);
-        var parts = content.Split(new char[] { ';', '\r', '\t', '\n' }, System.StringSplitOptions.RemoveEmptyEntries);
-        var list = new System.Collections.Generic.List<string>(parts);
-        list.Add(string.Format("{0}{1}", manager.selectedEpisode, manager.selectedMap));
-        var builder = new System.Text.StringBuilder();
-        foreach (var item in list)
         {
-            builder.Append(item);
-            builder.AppendLine(";");
+            var obj = GameObject.FindGameObjectWithTag(Tags.SelectMapManager);
+            var manager = obj.GetComponent<SelectMapManager>();
+            var content = FileHelper.Read(ConfigFilenames.SelectMapConfig);
+            var config = SelectMapConfig.Parse(content);
+            var currentMap = string.Format("{0}{1}", manager.selectedEpisode, manager.selectedMap);
+            if(!config.warProgressList.Contains(currentMap))
+            {
+                config.warProgressList.Add(currentMap);
+                config.Save(ConfigFilenames.SelectMapConfig);
+            }
         }
-        var updatedConfig = builder.ToString();
-        Debug.Log(string.Format("new config:{0}", updatedConfig));
-        FileHelper.Write(ConfigFilenames.SelectMapConfig, updatedConfig); 
+        {
+            var content = FileHelper.Read(ConfigFilenames.workshopConfig);
+            var config = WorkshopConfig.Parse(content);
+            config.money += this.winInBattleField.gainedMoney;
+            config.Save(ConfigFilenames.workshopConfig);
+        }
+
         Application.LoadLevel(Scenes.SelectMap);
     }
 }

@@ -4,6 +4,8 @@ using System.Collections;
 public class WinInBattleField : MonoBehaviour {
 
     public GameObject winPanel;
+    public int gainedMoney;
+    public UnityEngine.UI.Text moneyDisplayer;
     private EnemySender enemySender;
     private BattleFieldStateManager stateManager;
 
@@ -34,5 +36,7 @@ public class WinInBattleField : MonoBehaviour {
                 }
             }
         }
+
+        this.moneyDisplayer.text = string.Format("￥:{0}", gainedMoney);
 	}
 }

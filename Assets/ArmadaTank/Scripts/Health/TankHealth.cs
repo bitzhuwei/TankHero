@@ -44,9 +44,11 @@ public abstract class TankHealth : MonoBehaviour
 
             Destroy(this.transform.parent.gameObject);
             //Destroy(deadAnimation, 10);
+            OnDead();
         }
     }
 
     protected abstract void OnTriggerEnter(Collider other);
 
+    protected abstract void OnDead();
 }

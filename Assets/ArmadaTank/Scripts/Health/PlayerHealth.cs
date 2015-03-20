@@ -21,4 +21,8 @@ public class PlayerHealth : TankHealth {
         }
         bulletScript.Destroy(this); 
     }
+
+    protected override void OnDead()
+    {
+    }
 }
