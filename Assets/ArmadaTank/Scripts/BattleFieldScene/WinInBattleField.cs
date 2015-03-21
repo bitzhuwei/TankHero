@@ -3,6 +3,7 @@ using System.Collections;
 
 public class WinInBattleField : MonoBehaviour {
 
+    public GameObject touchPanel;
     public GameObject winPanel;
     public int gainedMoney;
     public UnityEngine.UI.Text moneyDisplayer;
@@ -28,7 +29,8 @@ public class WinInBattleField : MonoBehaviour {
                 this.winPanel.SetActive(true);
                 if (this.stateManager)
                 {
-                    this.stateManager.state = EBattleFieldState.Win; 
+                    this.stateManager.state = EBattleFieldState.Win;
+                    this.touchPanel.SetActive(false);
                 }
                 else
                 {

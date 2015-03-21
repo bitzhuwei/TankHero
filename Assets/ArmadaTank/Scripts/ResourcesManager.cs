@@ -23,7 +23,7 @@ public class ResourcesManager
         {
             var texture2D = Resources.Load<Texture2D>(texture2DFolder + texture2DName);
             if (texture2D != null)
-            { Texture2DDict.Add(texture2D.name, texture2D); }
+            { Texture2DDict.Add(texture2DName, texture2D); }
         }
 
         Texture2D result = null;
@@ -47,7 +47,7 @@ public class ResourcesManager
         {
             var material = Resources.Load<Material>(materialFolder + materialName);
             if (material != null)
-            { materialDict.Add(material.name, material); }
+            { materialDict.Add(materialName, material); }
         }
 
         Material result = null;

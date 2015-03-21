@@ -50,9 +50,7 @@ public class LoadAndShotAllMaps : MonoBehaviour
             if (building)
             {
                 var filename = string.Format(@"maps/{0}/m{1}",
-                    OriginalMapLoader.GetEpisodeName(i),
-                    //episodeDict[("episode" + i)], 
-                    j);
+                    OriginalMapLoader.GetEpisodeName(i), j);
                 var mapObj = OriginalMap.GetOriginalMap(filename);
                 objects = mapObj.Build();
                 Application.CaptureScreenshot(string.Format(@"MapShot/episode{0}m{1}({2}).map.jpg",
@@ -76,9 +74,9 @@ public class LoadAndShotAllMaps : MonoBehaviour
                 building = true;
             }
         }
-        catch (System.Exception)
+        catch (System.Exception e)
         {
-
+            Debug.Log(e.ToString());
         }
     }
 }

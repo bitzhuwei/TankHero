@@ -52,14 +52,14 @@ eventobj {
 } 
 
 respawn { 
-  rsp 0 9 4 
-  rsp 1 11 4 
-  rsp 2 2 2 
-  rsp 3 2 2 
-  rsp 4 6 16 
-  rsp 5 10 16 
-  rsp 6 12 16 
-  rsp 7 15 16 
+  rsp 0 10 5 
+  rsp 1 12 5 
+  rsp 2 3 3 
+  rsp 3 3 3 
+  rsp 4 7 17 
+  rsp 5 11 17 
+  rsp 6 13 17 
+  rsp 7 16 17 
   endrespawn 
 } 
 

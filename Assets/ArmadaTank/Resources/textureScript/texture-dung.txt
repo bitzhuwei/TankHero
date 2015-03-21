@@ -1,12 +1,12 @@
 //createtexture 64
 
 texture 0 "TERR" {
-  LoadFile "BaseT\\Texture\\Terr_DUNG.jpg"
+  LoadFile "BaseT\\Texture\\Terr_Dung.jpg"
   Run
 }
 
 texture 2 "TERR2" {
-  LoadFile "BaseT\\Texture\\Terr_DUNG.jpg"
+  LoadFile "BaseT\\Texture\\Terr_Dung.jpg"
   Run
 }
 

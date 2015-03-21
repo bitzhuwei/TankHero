@@ -80,4 +80,36 @@ public class BrickMaterialManager {
 
         return list[indexByHealth];
     }
+
+    public int GetHealth(string material)
+    {
+        Debug.Log("Material: " + material);
+        if (
+            material == MaterialName.strTerrWall_C_0
+            || material == MaterialName.strTerrWall_G_0
+            || material == MaterialName.strTerrWall_R_0
+            || material == MaterialName.strTerrWall_W_0
+            || material == MaterialName.strTerrWall_Y_0)
+        { return 99; }
+        else if (
+            material == MaterialName.strTerrWall_C_1
+            || material == MaterialName.strTerrWall_R_1
+            || material == MaterialName.strTerrWall_W_1
+            || material == MaterialName.strTerrWall_Y_1)
+        { return 74; }
+        else if (
+            material == MaterialName.strTerrWall_C_2
+            || material == MaterialName.strTerrWall_R_2
+            || material == MaterialName.strTerrWall_W_2
+            || material == MaterialName.strTerrWall_Y_2)
+        { return 49; }
+        else if (
+            material == MaterialName.strTerrWall_C_3
+            || material == MaterialName.strTerrWall_R_3
+            || material == MaterialName.strTerrWall_W_3
+            || material == MaterialName.strTerrWall_Y_3)
+        { return 24; }
+
+        return 99;
+    }
 }

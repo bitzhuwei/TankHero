@@ -7,7 +7,8 @@ public class HideTouchPanelInPC : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-#if ! UNITY_ANDROID
+#if  UNITY_ANDROID
+#else
         this.gameObject.SetActive(false);
 #endif
     }

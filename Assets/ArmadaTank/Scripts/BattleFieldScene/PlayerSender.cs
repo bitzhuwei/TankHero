@@ -11,21 +11,29 @@ public class PlayerSender : MonoBehaviour {
     public TouchPanelTouching goCenter;
 #endif
 
+    private OriginalMapLoader mapLoader;
     private WorkshopConfigLoader workshopConfigLoader;
     private GameObject player;
 
 	// Use this for initialization
-	void Start () {
-        var obj = GameObject.FindGameObjectWithTag(Tags.WorkshopConfig);
-        this.workshopConfigLoader = obj.GetComponent<WorkshopConfigLoader>();
-	}
+    void Start()
+    {
+        {
+            var obj = GameObject.FindGameObjectWithTag(Tags.WorkshopConfig);
+            this.workshopConfigLoader = obj.GetComponent<WorkshopConfigLoader>();
+        }
+        {
+            var obj = GameObject.FindGameObjectWithTag(Tags.BattleFieldManager);
+            this.mapLoader = obj.GetComponent<OriginalMapLoader>();
+        }
+    }
 	
 	// Update is called once per frame
 	void Update () {
         if(!player)
         {
             player = ResourcesManager.Instantiate(PrefabFolder.BattleField + @"/" + "Player");
-            player.transform.position = new Vector3(-2, 0, -6);
+            player.transform.position = mapLoader.map.respawnList[0].position;// new Vector3(-2, 0, -6);
             var config = this.workshopConfigLoader.config;
             var armor = player.GetComponentInChildren<Armor>();
             armor.prefab = (Armor.PrefabOption)config.boughtArmor;

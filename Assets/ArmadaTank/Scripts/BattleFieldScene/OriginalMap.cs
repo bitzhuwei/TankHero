@@ -38,11 +38,23 @@ public class OriginalMap
         BuildEventObjList(this.eventObjList, result);
         BuildFlagObj(this.flag, result);
         BuildWall(this.wallList, result);
+        BuildRespawnList(this.respawnList, result);
         return result;
+    }
+
+    private void BuildRespawnList(List<Transform> list, List<GameObject> result)
+    {
+        foreach (var item in list)
+        {
+            var gameObj = new GameObject(item.name);// ResourcesManager.Instantiate(PrefabFolder.BattleField + @"/" + "item_airBomb");
+            result.Add(gameObj);
+            gameObj.transform.position = item.position;
+        }
     }
 
     private void BuildWall(List<string> list, List<GameObject> result)
     {
+        var manager = new BrickMaterialManager();
         for (int i = 0; i < list.Count; i++)
         {
             for (int j = 0; j < list[i].Length; j++)
@@ -88,6 +100,8 @@ public class OriginalMap
                 {
                     IConfig config = gameObj.GetComponent<AssemblyConfig>();
                     config.SetMaterial(mat);
+                    var brick1Health = gameObj.GetComponentInChildren<Brick1Health>();
+                    brick1Health.health = manager.GetHealth(mat);
                 }
                 gameObj.transform.position = position;
             }
@@ -174,7 +188,11 @@ public class OriginalMap
             {
                 var line = reader.ReadLine();
                 Console.WriteLine(line);
-                if (line.StartsWith("items"))
+                if (line.StartsWith("respawn"))
+                {
+                    GetRespawnList(map, reader);
+                }
+                else if (line.StartsWith("items"))
                 {
                     //Debug.LogError(string.Format("{0}:{1}", filename, line));
                 }
@@ -217,6 +235,28 @@ public class OriginalMap
                 {
                     GetTerr(map, reader);
                 }
+            }
+        }
+    }
+
+    private static void GetRespawnList(OriginalMap map, System.IO.StreamReader reader)
+    {
+        while (!reader.EndOfStream)
+        {
+            var line = reader.ReadLine();
+            if (line.Contains("endrespawn"))
+            {
+                break;
+            }
+
+            {
+                var parts = line.Split(emptyChar, System.StringSplitOptions.RemoveEmptyEntries);
+                var index = int.Parse(parts[1]);
+                var row = int.Parse(parts[2]);
+                var col = int.Parse(parts[3]);
+                var gameObj = new GameObject("respawn(" + parts[1] + ")");
+                gameObj.transform.position = new Vector3(row - map.width / 2, 0, col - (map.height - 1) / 2);
+                map.respawnList.Add(gameObj.transform);
             }
         }
     }
@@ -507,22 +547,22 @@ public class OriginalMap
                     gameObj.transform.position = position;
                     gameObj.transform.rotation = rotation;
                 }
-                if (prefabName == PrefabName.strTerr_11
-                    || prefabName == PrefabName.strTerr_70
-                    || prefabName == PrefabName.strTerr_107)
-                {
-                    //var gameObj = ResourcesManager.Instantiate(PrefabFolder.BattleField + @"/" + "Bullet_MapShow");
-                    //gameObj.GetComponentInChildren<MeshRenderer>().enabled = false;
-                    var gameObj = new GameObject(prefabName);
-                    gameObj.transform.position = position;
-                    gameObj.transform.rotation = rotation;
-                    if (prefabName == PrefabName.strTerr_107)
-                    { gameObj.transform.Translate(Vector3.left); }
-                    else
-                    { gameObj.transform.Translate(Vector3.forward); }
-                    objs.Add(gameObj);
-                    this.container.respawnList.Add(gameObj.transform); 
-                }
+                //if (prefabName == PrefabName.strTerr_11
+                //    || prefabName == PrefabName.strTerr_70
+                //    || prefabName == PrefabName.strTerr_107)
+                //{
+                //    //var gameObj = ResourcesManager.Instantiate(PrefabFolder.BattleField + @"/" + "Bullet_MapShow");
+                //    //gameObj.GetComponentInChildren<MeshRenderer>().enabled = false;
+                //    var gameObj = new GameObject(prefabName);
+                //    gameObj.transform.position = position;
+                //    gameObj.transform.rotation = rotation;
+                //    if (prefabName == PrefabName.strTerr_107)
+                //    { gameObj.transform.Translate(Vector3.left); }
+                //    else
+                //    { gameObj.transform.Translate(Vector3.forward); }
+                //    objs.Add(gameObj);
+                //    this.container.respawnList.Add(gameObj.transform); 
+                //}
             }
 
             if (IsDoorWay())

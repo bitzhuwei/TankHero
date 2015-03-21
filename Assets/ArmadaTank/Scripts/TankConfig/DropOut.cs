@@ -32,10 +32,6 @@ public class DropOut : MonoBehaviour
         else
         {
             passed += Time.deltaTime;
-            if(!threeDSAnimation)
-            {
-                Debug.Break();
-            }
             if (passed >= threeDSAnimation.cycle * 3)
             {
                 startFadeOutTime = Time.time;

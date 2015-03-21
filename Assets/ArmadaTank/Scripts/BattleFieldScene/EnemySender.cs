@@ -9,7 +9,7 @@ public class EnemySender : MonoBehaviour
     public float interval = 5;
     private OriginalMapLoader mapLoader;
     private int nextTank = 0;
-    private int nextRespawn = 0;
+    private int nextRespawn = 4;
     private float passedInterval;
 
     // Use this for initialization
@@ -49,7 +49,7 @@ public class EnemySender : MonoBehaviour
                     enemyObj.transform.position = mapLoader.map.respawnList[nextRespawn++].position;
                     sentEnemyTanks.Add(enemyObj);
                     if (nextRespawn >= mapLoader.map.respawnList.Count)
-                    { nextRespawn = 0; }
+                    { nextRespawn = 4; }
                     passedInterval = 0;
                 }
             }

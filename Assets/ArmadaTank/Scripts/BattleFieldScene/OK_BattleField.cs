@@ -23,11 +23,12 @@ public class OK_BattleField : MonoBehaviour {
             var content = FileHelper.Read(ConfigFilenames.SelectMapConfig);
             var config = SelectMapConfig.Parse(content);
             var currentMap = string.Format("{0}{1}", manager.selectedEpisode, manager.selectedMap);
-            if(!config.warProgressList.Contains(currentMap))
+            if (!config.warProgressList.Contains(currentMap))
             {
                 config.warProgressList.Add(currentMap);
                 config.Save(ConfigFilenames.SelectMapConfig);
             }
+            Destroy(obj);
         }
         {
             var content = FileHelper.Read(ConfigFilenames.workshopConfig);
@@ -35,7 +36,10 @@ public class OK_BattleField : MonoBehaviour {
             config.money += this.winInBattleField.gainedMoney;
             config.Save(ConfigFilenames.workshopConfig);
         }
-
+        {
+            var obj = GameObject.FindGameObjectWithTag(Tags.WorkshopConfig);
+            Destroy(obj);
+        }
         Application.LoadLevel(Scenes.SelectMap);
     }
 }

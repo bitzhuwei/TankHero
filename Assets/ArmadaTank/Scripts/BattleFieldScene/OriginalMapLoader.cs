@@ -65,6 +65,8 @@ public class OriginalMapLoader : MonoBehaviour
         var selectMapManager = GameObject.FindGameObjectWithTag(Tags.SelectMapManager);
         var manager = selectMapManager.GetComponent<SelectMapManager>();
         BuildBattleField(manager);
+        //var workshopConfig = GameObject.FindGameObjectWithTag(Tags.WorkshopConfig);
+        //Destroy(workshopConfig);
     }
 
     private void BuildBattleField(SelectMapManager manager)
