@@ -80,7 +80,7 @@ public class SelectMap : MonoBehaviour
                     break;
                 }
             }
-            this.episodeName = this.selectMapManagerScript.selectedEpisode;
+            this.episodeName = selectedEpisode;
         }
 
     }

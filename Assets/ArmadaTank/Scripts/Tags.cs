@@ -20,5 +20,6 @@ public class Tags
     public const string WorkshopConfig = "WorkshopConfig";
     public const string BattleFieldManager = "BattleFieldManager";
     public const string txtInfo = "txtInfo";
+    public const string BattleFieldCanvas = "BattleFieldCanvas";
 
 }

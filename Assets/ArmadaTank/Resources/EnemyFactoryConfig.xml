@@ -1,6 +1,0 @@
-<EnemyFactory>
-  <Boss1>
-    <Prefab>Boss1</Prefab>
-    <Material>Tank_Enemy512</Material>
-  </Boss1>
-</EnemyFactory>

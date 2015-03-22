@@ -15,7 +15,7 @@ public abstract class TankHealth : MonoBehaviour
     }
 
     // Use this for initialization
-    void Start()
+    protected virtual void Start()
     {
         baseModelConfig = GetBaseModelConfig();
     }

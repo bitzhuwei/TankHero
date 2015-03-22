@@ -4,17 +4,23 @@ using System.Collections;
 public class EnemyHealth : TankHealth
 {
     public EnemyModel baseModelScript;
-    public WinInBattleField winInBattleField;
+    private WinInBattleField winInBattleField;
+    private UIGetMoneyFactory getMoneyFactory;
 
-    protected override void Awake()
+    protected override void Start()
     {
-        base.Awake();
+        base.Start();
         base.health = baseModelScript.GetHealth();
         {
             var battleFieldBuilder = GameObject.FindGameObjectWithTag(Tags.BattleFieldManager);
             this.winInBattleField = battleFieldBuilder.GetComponent<WinInBattleField>();
         }
+        {
+            var canvas = GameObject.FindGameObjectWithTag(Tags.BattleFieldCanvas);
+            this.getMoneyFactory = canvas.GetComponent<UIGetMoneyFactory>();
+        }
     }
+
     protected override IConfig GetBaseModelConfig()
     {
         return baseModelScript;
@@ -35,6 +41,7 @@ public class EnemyHealth : TankHealth
 
     protected override void OnDead()
     {
+        this.getMoneyFactory.Create(this.transform);
         winInBattleField.gainedMoney += Random.Range(1,100);
     }
 }

@@ -251,7 +251,7 @@ public class OriginalMap
 
             {
                 var parts = line.Split(emptyChar, System.StringSplitOptions.RemoveEmptyEntries);
-                var index = int.Parse(parts[1]);
+                //var index = int.Parse(parts[1]);
                 var row = int.Parse(parts[2]);
                 var col = int.Parse(parts[3]);
                 var gameObj = new GameObject("respawn(" + parts[1] + ")");
